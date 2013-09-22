@@ -12,9 +12,9 @@
 		hideForm		= 0;
 	*/
 
-	var defaultKey		= '', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [], // Comma separated array of Xively Feed ID numbers
-		applicationName	= '', // Replaces Xively logo in the header
+	var defaultKey		= '7ZEfKAuN6h1bFTBH14f9H1fXeysM34G2j9MfNRY5pAkGNM8h', // Unique master Xively API key to be used as a default
+		defaultFeeds	= [624668741], // Comma separated array of Xively Feed ID numbers
+		applicationName	= 'WebMOS', // Replaces Xively logo in the header
 		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
 		dataColor		= '', // CSS HEX value of color to represent data (omit leading #)
